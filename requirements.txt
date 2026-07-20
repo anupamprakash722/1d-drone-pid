@@ -1,0 +1,10 @@
+# PID Control Course - dependencies
+# In Google Colab these are already installed, so you usually need to do nothing.
+# For a local Jupyter setup:  pip install -r requirements.txt
+
+numpy>=1.21
+matplotlib>=3.5
+ipywidgets>=7.6
+
+# That's it. The whole course deliberately uses ONLY these three libraries
+# (no scipy, no control toolbox, no ROS, no PyBullet) so you build every idea by hand.
